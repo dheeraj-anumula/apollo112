@@ -1,0 +1,14 @@
+.progressBarContainer {
+  border: 2px solid beige;
+}
+
+.progressBar {
+  border: 2px solid beige;
+  background-color: gold;
+  width: 0;
+  transition: width 0.2s ease-in;
+}
+
+.progressBarStartProgress {
+  width: 100%;
+}
